@@ -1,0 +1,10 @@
+@for (item of books; track $index) {
+  <div style="background-color: aqua; width: 500px;">
+    <h4>Title :- <b>{{item.name}}</b></h4>
+    <p>Description :- {{item.description}}</p>
+    <h4>Price :- ${{item.price}}</h4>
+    <h4 *ngIf="item.username" >Username :- {{item.username?item.username:'No Purchase This book of any user'}}</h4>
+  </div>
+}
+
+<!-- <app-checkout (username)="onOpen($event)"></app-checkout> -->

@@ -1,0 +1,14 @@
+@for (item of user; track $index) {
+  <p style="margin-left: 60px;color: blue;">That is {{item.username}} profile's</p>
+  <div style="display: flex; align-items: center;">
+    <div *ngIf="item">
+      <img src="https://cdn.vectorstock.com/i/preview-1x/17/61/male-avatar-profile-picture-vector-10211761.jpg" width="130" alt="">
+    </div>
+    <div style="margin-left: 20px;">
+      <p>Username :- {{item?item.username:'No Result Here'}}</p>
+      <p>Email :- {{item?item.email:'No Result Here'}}</p>
+      <p *ngIf="item.book">Book :- {{item.book?item.book:'No Purchase Any Book'}}</p>
+      <p>Volet :- {{item.volet?item.volet:"0"}}</p>
+    </div>
+  </div>
+}

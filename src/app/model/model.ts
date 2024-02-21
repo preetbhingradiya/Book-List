@@ -1,0 +1,21 @@
+export class Book{
+  constructor(name:string,description:string,price:number,previcePrice:number,qty:number,stock:number,username?:string,id?:string){
+    this.id=id,
+    this.name=name,
+    this.description=description,
+    this.name=name,
+    this.price=price
+    this.qty=qty,
+    this.stock=stock
+    this.username=username
+    this.previcePrice=previcePrice
+  };
+  id:string
+  name:string;
+  description:string;
+  price:number
+  username:string
+  qty:number
+  stock:number
+  previcePrice:number
+};

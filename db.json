@@ -1,0 +1,64 @@
+{
+  "user": [
+    {
+      "id": "1505",
+      "username": "jay",
+      "email": "jay@gmail.com",
+      "password": "jay123",
+      "volet": 900,
+      "book": ""
+    },
+    {
+      "id": "0f39",
+      "username": "preet",
+      "email": "preet@gmail.com",
+      "password": "preet123",
+      "volet": 11000,
+      "book": ""
+    }
+  ],
+  "books": [
+    {
+      "id": "3793",
+      "name": "The Great Gatsby by",
+      "description": "The Great Gatsby by F. Scott Fitzgerald. Scott Fitzgerald's The Great Gatsby is said to be the quintessential novel of the Jazz Age. Set in 1922 amongst",
+      "price": 300,
+      "previcePrice": 300,
+      "stock": 3,
+      "qty": 1,
+      "username": ""
+    },
+    {
+      "id": "0a7d",
+      "name": "Frankenstein",
+      "description": " By Mary Shelley. Shop now · All the Light We Cannot See. By Anthony Doerr. Shop now · The ...",
+      "price": 900,
+      "previcePrice": 900,
+      "stock": 2,
+      "qty": 1,
+      "username": ""
+    },
+    {
+      "id": "3be8",
+      "name": "માનવીની ભવાઈ",
+      "description": " દુષ્કાળનું અદભુત વર્ણન કરતી અને વાંચનમાં જકડી રાખતી નવલકથા",
+      "price": 1000,
+      "previcePrice": 1000,
+      "stock": 1,
+      "qty": 1,
+      "username": [
+        "preet"
+      ]
+    },
+    {
+      "id": "d6f0",
+      "name": "કીમિયાગર",
+      "description": "ખજાનાની શોધમાં નીકળેલા ઘેટા ચરાવતા અજાણ માણસની કથા આપણને સ્વયંની ઓળખ કરાવે છે અને અગાધ શક્તિઓનો પરિચય આપે છે",
+      "price": 500,
+      "previcePrice": 500,
+      "stock": 5,
+      "qty": 1,
+      "username": ""
+    }
+  ]
+}
